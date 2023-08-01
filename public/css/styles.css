@@ -1,0 +1,173 @@
+body{
+    font-family: "open sans";
+    text-align: center;
+   }
+   /* navbar */
+   .brand-icon{
+       color: #000;
+   }
+   .navbar{
+       font-family: "Ubuntu";
+   }
+   .navbar-brand{
+       font-size: 2.0rem;
+       text-align: left;
+       margin-left: 0rem;
+   }
+   .nav-link{
+       font-size: 1.3rem;
+   }
+   
+   /* title */
+   #title{
+       padding: 2% 3%;
+       background-color: #71C9CE;
+   }
+   .title-div{
+       padding-top:5% ;
+   }
+   .title-content{
+       text-align: center;
+   }
+   .sign-button{
+       margin: 5% 5% 0 0;
+       width: 40%;
+   }
+   .sign-button a{
+       text-decoration: none;
+       color: #fff;
+       display: inline-block;
+       width: 100%;
+   }
+   /* headings */
+   .main-heading{
+       line-height: 2;
+       font-weight: 600;
+       color: #fff;
+   }
+   
+   /* title-img */
+   
+       .title-img{
+           height: 180px;
+           width: 180px;
+           border-radius: 100%;
+           margin: 1.5rem 1.5rem;
+       }
+   
+   /* target-audience */
+   #target-audience{
+       text-align: center;
+   }
+   .collage-students{
+       height: 200px;
+       width: 200px;
+       border-radius: 100%;
+   
+   }
+   .target-audience-div{
+       width: 50%;
+       margin: 50px auto;
+       line-height: 2;
+   
+   }
+   .audi-heading{
+       font-weight: 600;
+   }
+   .audi-para{
+      color:  rgb(112, 111, 111);
+   }
+   /* Usecases */
+   .usecase-icon{
+       width: 200px;
+       height: 200px;
+       border-radius: 100%;
+       margin: 1rem auto;
+   }
+   #usecases{
+       background-color: #71C9CE;
+   }
+   .carousel-inner{
+       padding: 7% 15%;
+   }
+   #usecases h3{
+       color: #fff;
+       font-family: "Ubuntu";
+       font-size: 2rem;
+       font-weight: 500;
+       margin-bottom: 2rem;
+   }
+   #usecases p{
+       color: rgb(112, 111, 111);
+       line-height: 1.5;
+   }
+   /* features */
+   .feature-icon{
+       color: #71C9CE;
+       margin-bottom:1rem ;
+       width: 100%;
+   }
+   .feature-icon:hover{
+       color: #A6E3E9;
+   }
+   .features-div{
+       background-color: #fff;
+       padding: 7% 15%;
+   }
+   .features-div h3{
+       color: #000;
+       font-weight: bold ;
+   }
+   .features-div p{
+       color: rgb(112, 111, 111);
+   }
+   /* working */
+   #working{
+       background-color: #71C9CE;
+       padding: 5% 5%;
+   }
+   .queue-img{
+       width: 200px;
+       height: 200px;
+       border-radius: 100%;
+       margin-bottom: 1rem;
+   }
+   .working{
+       width: 60%;
+       margin: 50px auto;
+   }
+   .working h3{
+       color: #fff;
+       font-size: 2.5rem;
+       font-weight: 600;
+   }
+   .working p{
+       color: rgb(112, 111, 111);
+       line-height: 1.5;
+   }
+   .sym{
+       color: #000;
+       text-decoration: underline;
+   }
+   /* footer */
+   .footer-div{
+       padding: 7% 15%;
+       background-color: #fff;
+   }
+   @media (min-width:900px){
+       .title-content{
+           text-align: left;
+       }
+   }
+   /* @media (max-width:760px) {
+       .title-img{
+           margin: 1.5rem 1.5rem;
+       }
+       
+   } */
+   /* @media (max-width:1120px) and (min-width:764px) {
+       .title-img{
+           visibility: hidden;
+       }
+       
+   } */

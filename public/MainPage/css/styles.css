@@ -1,0 +1,51 @@
+body {
+  font-family: "open sans";
+  background-color: #a6e3e9;
+  text-align: center;
+}
+h1 {
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+hr {
+  width: 10%;
+  border: 0;
+  border-top:10px solid ;
+  border-style: dotted;
+  color: #000;
+  margin: auto;
+}
+/* services */
+.card-img {
+  width: 70%;
+  height: 70%;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.row {
+  padding: 4% 10%;
+}
+.card {
+  background-color: #71c9ce;
+  padding: 3% 4%;
+  margin: 5% 4%;
+}
+.card h2 {
+  color: #fff;
+}
+.btn {
+  background-color: #a6e3e9;
+}
+.btn:hover {
+  background-color: #fff;
+}
+button span {
+  color: #000;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+    width: 100%;
+}
+
